@@ -24,3 +24,5 @@ polars-lts-cpu #Para maior compatibilidade e estabilidade
 firebird
 passlib
 firebirdsql~=1.3.2
+aiofiles~=24.1.0
+aioboto3~=13.4.0
