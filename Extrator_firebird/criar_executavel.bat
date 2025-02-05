@@ -73,8 +73,15 @@ echo Gerando o executável com PyInstaller...
     --onefile ^
     --noconsole ^
     --add-data "config;config" ^
-     --add-data "dicionarios_tipos.json;." ^
+    --add-data "dicionarios_tipos.json;." ^
     --hidden-import fdb ^
+    --hidden-import polars-lts-cpu ^
+    --hidden-import aioboto3 ^
+    --hidden-import aiobotocore ^
+    --hidden-import aiobotocore.session ^
+    --hidden-import azure.storage.blob ^
+    --hidden-import azure.identity ^
+    --hidden-import azure.core ^
     --name "%PROJECT_NAME%" ^
     %MAIN_SCRIPT%
 

@@ -53,7 +53,10 @@
     "NomeFornecedorFantasia": "string",
     "idEmp": "string",
     "idEmpresa": "string",
-    "DataHoraAtualizacao": "string"
+    "DataHoraAtualizacao": "string",
+    "Ano": "string",
+    "Mes": "string",
+    "Dia": "string"
   },
   "Estoque": {
     "CodigoProduto": "string",
@@ -141,6 +144,9 @@
     "CodigoNomePBM": "string",
     "idEmp": "string",
     "idEmpresa": "string",
-    "DataHoraAtualizacao": "string"
+    "DataHoraAtualizacao": "string",
+    "Ano": "string",
+    "Mes": "string",
+    "Dia": "string"
   }
 }
